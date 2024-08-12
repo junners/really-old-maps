@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start:dev": "npx parcel index.html",
     "test": "npm run precommit",
     "prepare": "husky",
     "lint": "eslint",
